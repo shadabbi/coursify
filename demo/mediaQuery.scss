@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .fancy-border {
+    height: 40rem;
+    width: 44rem;
+    top: 24%;
+    right: 9%;
+  }
+  #main-header {
+    nav {
+      #nav-icon1 {
+        display: flex;
+      }
+
+      .links {
+        display: none;
+      }
+    }
+
+    .fancy-border {
+      height: 40rem;
+      width: 44rem;
+      top: 24%;
+      right: 9%;
+    }
+  }
+
+  #features {
+    margin: 0 4rem;
+  }
+
+  #keyfeatures {
+    margin: 6rem 6rem;
+  }
+
+  #process {
+    margin: 13rem 8rem;
+  }
+
+  #live {
+    .fancy-border {
+      display: none;
+    }
+  }
+
+  #tutors {
+    .testimonial-container {
+      margin-top: 7rem;
+      margin-left: 0rem;
+    }
+  }
+
+  #download-btn {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  html {
+    font-size: 58.5%;
+  }
+
+  .fancy-border {
+    height: 41rem;
+    width: 44rem;
+    display: none;
+  }
+
+  #process {
+    margin: 13rem 5rem;
+  }
+
+  #explore > div {
+    position: relative;
+    margin: 0 8rem;
+  }
+
+  .books > div {
+    margin: 13rem 4rem;
+  }
+
+  #tutors .fancy-border {
+    top: 73%;
+    right: 3%;
+  }
+
+  #tutors .testimonial-container {
+    margin-top: 7rem;
+    margin-left: 0;
+  }
+
+  #download-btn {
+    margin: 6rem 0;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 315px) {
+  html {
+    font-size: 48.5%;
+  }
+
+  #main-header .header-img {
+    max-width: 54rem;
+    margin: 7rem auto;
+  }
+
+  #features {
+    margin: 12rem 4rem;
+  }
+
+  #process {
+    .arrow {
+      display: none;
+    }
+
+    .step .img-container {
+      max-width: 23rem;
+      margin: auto;
+    }
+  }
+
+  #live {
+    .img-container {
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+
+  #jee {
+    .fancy-border {
+      display: none;
+    }
+  }
+
+  #tutors {
+    .testimonial.top {
+      display: none;
+    }
+    .second {
+      display: none;
+    }
+
+    .owl-carousel-2 .owl-nav .owl-next {
+      bottom: 40%;
+    }
+    .owl-carousel-2 .owl-nav .owl-prev {
+      top: 26%;
+      left: -6%;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 40.5%;
+  }
+
+  .boldText {
+    font-size: 4rem;
+  }
+  #main-header .header-title h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .boldText {
+    text-align: center;
+  }
+  #features {
+    .feature {
+      margin-top: 4rem;
+    }
+
+    & > div {
+      padding: 0;
+    }
+  }
+
+  #keyfeatures .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .img-container {
+      margin-bottom: 3rem;
+    }
+  }
+  #live .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .img-container {
+      margin-bottom: 3rem;
+    }
+  }
+
+  #jee {
+    & > div {
+      margin: 10rem 7rem;
+      text-align: center;
+    }
+
+    .text {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
+
+  #explore {
+    & > div {
+      margin: 0 8rem;
+    }
+  }
+
+  #tutors .testimonial .img-container {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 37.5%;
+  }
+}
